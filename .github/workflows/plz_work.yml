@@ -40,8 +40,8 @@ jobs:
       # update system and install something 
       - name: update the
         run: |
-          sudo apt update -y,
-          sudo apt install -y bsdmainutils,
+          sudo apt update -y
+          sudo apt install -y bsdmainutils
           cal
         
       
