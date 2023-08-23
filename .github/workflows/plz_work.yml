@@ -35,7 +35,7 @@ jobs:
 
       # os version
       - name: what is the os version
-        run: /etc/os-release
+        run: cat /etc/os-release
       
       # update system and install something 
       - name: update the
