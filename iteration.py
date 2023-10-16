@@ -38,8 +38,21 @@
 #for i in {"drink": "wine"}.values():
 #   print(i)
     
-a = 0
-while a < 5:
-    name = input("What is your name? ")
-    print(name, "is awesome!")
-    a += 1
+#a = 0
+#while a < 5:
+#    name = input("What is your name? ")
+#    print(name, "is awesome!")
+#    a += 1
+    
+#my_names = ["adam", "tony", "pear"]
+#for names in my_names:
+#    print(F"{names} is awesome")
+
+
+num = 10
+num_1 = 20
+while num > num_1:
+    print(num)
+    
+else:
+    print(num_1)
