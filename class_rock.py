@@ -38,7 +38,7 @@ class Game:
                 continue
 
             computer_choice = self.computer_choice()
-            print(f"Player chose {player_choice}, Computer chose {computer_choice}")
+            print(f"Player has choosen {player_choice}\nComputer has choosen {computer_choice}")
 
             round_result = self.play_round(player_choice, computer_choice)
             print(round_result)
